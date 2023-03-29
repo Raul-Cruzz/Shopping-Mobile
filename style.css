@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 300px;
+    width: 300px;
+    background: blue;
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    div {
+        background: red;
+        height: 200px;
+        width: 200px;
+    }
+} 
